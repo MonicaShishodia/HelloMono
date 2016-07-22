@@ -1,0 +1,5 @@
+FROM mono
+ADD HelloMono.cs HelloMono.cs
+RUN mcs HelloMono.cs
+CMD mono HelloMono.exe
+
